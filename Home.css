@@ -1,0 +1,56 @@
+.landing-page {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between buttons */
+  }
+  
+  .actions,
+  .extra-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between buttons in each group */
+  }
+  
+  .actions button,
+  .extra-actions button {
+    width: 250px;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .new-project-btn,
+  .open-project-btn,
+  .import-project-btn {
+    background-color: #0a5b92;
+  }
+  
+  .new-project-btn:hover,
+  .open-project-btn:hover,
+  .import-project-btn:hover {
+    background-color: #4692c5;
+  }
+  
+  .help-btn,
+  .settings-btn {
+    background-color: #0a5b92; 
+  }
+  
+  .help-btn:hover,
+  .settings-btn:hover {
+    background-color: #4d8acb;
+  }
+  

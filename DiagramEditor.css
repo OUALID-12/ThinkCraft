@@ -1,0 +1,103 @@
+.diagram-editor {
+  display: flex;
+  height: 90vh; 
+  max-width: 90%;
+  margin-bottom: 100px;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sidebar h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.selectors,
+.relationships,
+.code-generation {
+  margin-bottom: 20px;
+}
+
+.toolbar input,
+.selectors select,
+.relationships input,
+.code-generation select,
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.class-form{
+  padding: 10px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+button {
+  background-color: #0a5b92; 
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #75afd5; 
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+#diagram-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000000;
+  background: repeating-linear-gradient(
+    to bottom,
+    #f9f9f9,
+    #f9f9f9 19px,
+    #e0e0e0 20px
+  );
+}
+
+.code-output {
+  margin-top: 20px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.select {
+  font-size: 14px;
+}
+
+.AA{
+  margin-right:90px;
+}
+
+
+.text{
+  margin-left: -10px;
+  width: 100%;
+}
+.text1{
+  margin-left: -10px;
+  width: 110%;
+}
+

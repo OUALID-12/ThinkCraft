@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; 
+}
+
+.App {
+  text-align:left;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #0a5b92;
+  
+}
+
+
+
+button:hover {
+  background-color: #8cb9d6; 
+}
+
+textarea {
+  font-family: monospace; 
+  padding: 8px;
+}
+
+div {
+  margin-top: 8px;
+}
+
